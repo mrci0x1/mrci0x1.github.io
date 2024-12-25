@@ -16,7 +16,7 @@ timezone: Africa/Cairo
 
 title: mrci0x1 # the main title
 
-tagline: Bug Hunter || Jr Penetration Tester # it will display as the subtitle
+tagline: Jr Penetration Tester | Bug Hunter # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -34,8 +34,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Mohamed Mahmoud
-  email: mohamedmahmoud21@protonmail.com # change to your email address
+  name: mrci0x1
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/mrci0x1 # change to your Twitter homepage
