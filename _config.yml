@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "C:\Users\Marcii\Downloads\imag\wallpaperflare.com_wallpaper (27).jpg"
+avatar: https://profile-photos.hackerone-user-content.com/variants/50ejjcfnh496j0xt658sc4igqmra/4bb0411d18e8b529c09c61955870eebf24733396d3f2b1eca04d4e851955204a
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
