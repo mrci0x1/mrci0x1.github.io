@@ -2,7 +2,7 @@
 title: "Exposed Sensitive Logs and SQL Queries Revealing User Data"
 date: 2025-07-14
 categories: [Bug Hunting]
-tags: [Bug, bounty, tips]
+tags: [Bug, Information_Disclosure]
 ---
 
 ## Process
