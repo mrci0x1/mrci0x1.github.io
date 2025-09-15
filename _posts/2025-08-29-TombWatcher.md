@@ -132,6 +132,7 @@ hashcat -m 13100 hash.txt /usr/share/wordlists/rockyou.txt
 Once cracked, we got access to ```ALFRED```, moving one step closer to full domain compromise and continue with ```alfred``` crednetials 
 
 > We run BloodHound again after each new user because it updates our attack paths based on the new permissions and group memberships revealing new ways to escalate.
+{: .prompt-info }
 
 ## Bloodhound 0x2
 
@@ -149,9 +150,8 @@ bloodyAD --host '10.10.11.72' -d 'dc01.TOMBWATCHER.HTB' -u 'alfred' -p 'basketba
 ```
 This gave us the next step in our escacdlation path.
 
-> **Notice:**Kerberos SessionError: KRB_AP_ERR_SKEW (Clock skew too great)
-It means your machine's clock is out of sync with the domain controller and Kerberos hates that.
-Fix it with:
+> Kerberos SessionError: KRB_AP_ERR_SKEW (Clock skew too great) It means your machine's clock is out of sync with the domain controller and Kerberos hates that. Fix it with:
+{: .prompt-warning }
 ```shell 
 sudo systemctl stop systemd-timesyncd
 sudo ntpdate 10.10.11.72

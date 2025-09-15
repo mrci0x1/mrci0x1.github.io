@@ -24,7 +24,8 @@ dirsearch -u https://example.com/ -t 150 -x 403,404,500,429 -i 200,301,302 --ran
 and found many 200 OK, but there are most file interesting which called ```config.php.save```
 ![figure 01](https://mrci0x1.gitbook.io/home/~gitbook/image?url=https%3A%2F%2F2226553737-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FGuulzzy1AvWrJMh0trBB%252Fuploads%252FCLBshr6rZnWtw5iC7FoS%252FScreenshot%25202024-10-16%2520020603.png%3Falt%3Dmedia%26token%3Dbea094fe-6ffd-4109-bb7f-cb894993fd24&width=768&dpr=1&quality=100&sign=2161e719&sv=2)
 
-> **Warning:** This write-up dates back to when the ```config.php.save file``` was still present. However, since the bug was resolved, the file has now been removed from the results.
+> This write-up dates back to when the ```config.php.save file``` was still present. However, since the bug was resolved, the file has now been removed from the results.
+{: .prompt-danger }
 
 Accessing the ```config.php.save``` file revealed sensitive information, such as the database username (```dbuser```), password (```dbpass```), and other critical details. This type of exposure can lead to severe security risks if not addressed. 
 ![figure 02](https://mrci0x1.gitbook.io/home/~gitbook/image?url=https%3A%2F%2F2226553737-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FGuulzzy1AvWrJMh0trBB%252Fuploads%252Farl6YfKxkcogJdU6WMvS%252FScreenshot%25202024-10-16%2520021059.png%3Falt%3Dmedia%26token%3Df3bf6dac-297a-4fb9-8a55-0f44b4605e6f&width=768&dpr=1&quality=100&sign=70187272&sv=2)
