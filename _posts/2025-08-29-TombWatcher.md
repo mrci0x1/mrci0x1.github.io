@@ -4,12 +4,7 @@ date: 2025-08-29
 categories: [HTB]
 tags: [machine, ADCS, CVE,AD]
 ---
-![TombWatcher_LOGO](https://mrci0x1.gitbook.io/home/~gitbook/image?url=https%3A%2F%2F2226553737-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FGuulzzy1AvWrJMh0trBB%252Fuploads%252FecJG1ZM8l6XfjuyYwV5z%252Fimage.png%3Falt%3Dmedia%26token%3D09b50161-ad56-40be-ad3b-837926f3c8d2&width=400&dpr=3&quality=100&sign=1365134d&sv=2)
-
-- **OS:** Windows
-- **Difficulty:** Medium
-- **Machine:** Active
-- **Released:** 07/06/2025
+![TombWatcher](/assets/3.png)
 
 ## Machine Information
 As is common in real life Windows pentests, you will start the TombWatcher box with credentials for the following account: ```henry / H3nry_987TGV!```
