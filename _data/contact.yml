@@ -19,10 +19,10 @@
 #   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
 #   url:  ''                  # Fill with your Mastodon account page, rel="me" will be applied for verification
 #
-# - type: linkedin
-#   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
-#   url:  ''                  # Fill with your Linkedin homepage
-#
+- type: hackerone
+  icon: 'fa-solid fa-hat-cowboy' # Custom icon class, you need to define it in your CSS
+  url: 'https://hackerone.com/mrci0x1?type=user' # Your HackerOne profile link
+
 # - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
 #   url:  ''                  # Fill with your stackoverflow homepage
