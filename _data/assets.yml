@@ -1,0 +1,8 @@
+favicon:
+  ico: /assets/img/favicons/favicon.ico
+  svg: /assets/img/favicons/favicon.svg
+  png:
+    - /assets/img/favicons/favicon-16x16.png
+    - /assets/img/favicons/favicon-32x32.png
+  apple:
+    - /assets/img/favicons/apple-touch-icon.png
