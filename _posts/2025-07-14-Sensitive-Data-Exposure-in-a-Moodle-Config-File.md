@@ -3,6 +3,10 @@ title: "Sensitive Data Exposure in a Moodle Config File"
 date: 2025-07-23
 categories: [Bug Hunting]
 tags: [Bug, Information_Disclosure]
+image:
+  path: /assets/critical.avif
+  lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
+  alt: "Sensitive Data Exposure in a Moodle Config File — blog writeup cover"
 ---
 ## Process
 Let’s say your target is example.com. You begin with some Google dorking using simple queries, but nothing interesting comes up.
@@ -30,8 +34,11 @@ and found many 200 OK, but there are most file interesting which called ```confi
 Accessing the ```config.php.save``` file revealed sensitive information, such as the database username (```dbuser```), password (```dbpass```), and other critical details. This type of exposure can lead to severe security risks if not addressed. 
 ![figure 02](https://mrci0x1.gitbook.io/home/~gitbook/image?url=https%3A%2F%2F2226553737-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FGuulzzy1AvWrJMh0trBB%252Fuploads%252Farl6YfKxkcogJdU6WMvS%252FScreenshot%25202024-10-16%2520021059.png%3Falt%3Dmedia%26token%3Df3bf6dac-297a-4fb9-8a55-0f44b4605e6f&width=768&dpr=1&quality=100&sign=70187272&sv=2)
 Sometimes you won’t find anything right away, but don’t let that stop you. Every step gets you closer to a win. Keep learning, stay curious, and don’t give up—success comes to those who keep going! 🎉
-![figure 03](https://cdn.iframe.ly/files/5296977da345d269ab8274436ebdb94a.mp4)
-## Result
+<video controls autoplay muted loop width="768" playsinline>
+    <source src="https://cdn.iframe.ly/files/5296977da345d269ab8274436ebdb94a.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
 Update: Resolved 🎉🎉
 
 ![figure 03](https://mrci0x1.gitbook.io/home/~gitbook/image?url=https%3A%2F%2F2226553737-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FGuulzzy1AvWrJMh0trBB%252Fuploads%252FHt28RuAAl5fU9L1mePdw%252FScreenshot%25202024-10-16%2520024132.png%3Falt%3Dmedia%26token%3D0751472c-5356-4f06-a13f-6e8f6c58c264&width=768&dpr=1&quality=100&sign=2afe901b&sv=2)

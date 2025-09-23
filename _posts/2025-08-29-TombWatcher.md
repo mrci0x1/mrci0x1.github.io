@@ -1,10 +1,14 @@
 ---
-title: "TombWatcher"
+title: "HackTheBox TombWatcher Writeup"
 date: 2025-08-29
-categories: [HTB]
-tags: [machine, ADCS, CVE,AD]
+categories: [HTB, Writeup]
+tags: [Windows, ADCS, CVE,AD]
+image:
+  path: /assets/3.png
+  lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
+  alt: "TombWatcher HTB — blog writeup cover"
 ---
-![TombWatcher](/assets/3.png)
+
 
 ## Machine Information
 As is common in real life Windows pentests, you will start the TombWatcher box with credentials for the following account: ```henry / H3nry_987TGV!```
