@@ -4,8 +4,12 @@ icon: fas fa-info-circle
 order: 4
 title: "About Me"
 ---
-**Mohamed Mahmoud** — Bug bounty hunter & pentester.  
-I break things to make them better. Focused, curious, and always chasing the next flaw in the system.
+Hi! I’m **Mohamed Mahmoud**, a cybersecurity enthusiast and bug bounty hunter.
+This site showcases my work, projects, and research in cybersecurity.
+
+- Experienced in penetration testing, red teaming, and web application security
+- Publishes detailed write-ups of CTFs, HackTheBox challenges, and vulnerability research
+- Shares educational content on hacking techniques, tools, and best practices
 
 ### You Can Find me
 - [![HTB](https://img.shields.io/badge/HTB-111927?style=flat&logo=hackthebox&logoColor=9fef00)](https://app.hackthebox.com/profile/748090) — Hack The Box  
