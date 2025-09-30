@@ -89,7 +89,7 @@ ssh -i ~/.ssh/id_ed25519 gael@10.10.11.74
 
 I transferred and executed ```linpeas.sh``` to enumerate the system for privilege escalation vectors. While Linux check scripts can be used, ```linpeas.sh``` is faster and more comprehensive.
 ![linpease](/assets/Artificial-htb/linpease.png)
-linpeas.sh pointed me to ```/var/backups```, where I found ```backrest_backup.tar.gz```, a backup file containing critical data.
+linpeas.sh pointed me to ```/var/backups```, where I found ```backrest_backup.tar.gz```, a backup file containing critical data.<br>
 ![backup](/assets/Artificial-htb/backup.png)
 ![backup2](/assets/Artificial-htb/backup2.png)
 I transferred ```backrest_backup.tar.gz``` to my machine, extracted it, and found a ```config.json``` file:
