@@ -1,7 +1,7 @@
 ---
 title: "HackTheBox Expressway Writeup"
 date: 2025-09-21
-categories: [HTB, Writeup]
+categories: [HTB, Machines]
 tags: [Linux, VPN/IKE,CVE]
 image:
   path: /assets/Expressway-htb/1.png

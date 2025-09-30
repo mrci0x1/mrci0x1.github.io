@@ -1,7 +1,7 @@
 ---
 title: "HackTheBox TombWatcher Writeup"
 date: 2025-08-29
-categories: [HTB, Writeup]
+categories: [HTB, Machines]
 tags: [Windows, ADCS, CVE,AD]
 image:
   path: /assets/3.png
