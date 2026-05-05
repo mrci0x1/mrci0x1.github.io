@@ -2,7 +2,7 @@
 title: "Connect Android Studio Emulator on Windows to Your Kali Linux"
 date: 2026-5-5
 categories: [Android Penetration Testing]
-tags: [Android, ADB, Kali Linux, Pentesting]
+tags: [Android, ADB]
 image:
   path: /assets/Connect-Android-Studio-Emulator-on-Windows-to-Your-Kali-Linux/3.jpg
   lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
@@ -77,6 +77,7 @@ Now, we need to tell the ADB client in Kali to look for the server on your Windo
 ## Step 4: Fix Connection Issues (Windows Firewall)
 
 By default, Windows might block the incoming connection from Kali to the ADB port (5037). 
+![Issues](/assets/Connect-Windows-to-Your-kali-Linux/8.png "Issues")
 
 1.  Open **Command Prompt as Administrator** on Windows.
 2.  Add a firewall rule to allow port 5037:
