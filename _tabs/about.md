@@ -7,13 +7,12 @@ title: "About Me"
 
 ## About
 
-I'm **Mohamed Mahmoud**, an offensive security professional focused on web, API, network, Active Directory, and Android mobile penetration testing. I enjoy breaking things apart, understanding how they work, and finding what others miss.
-
----
+I'm **Mohamed Mahmoud** aka mrci0x1, an offensive security professional focused on web, API, network, Active Directory, and Android mobile penetration testing. I like taking systems apart, figuring out how they actually work, and digging until I find what others miss.
 
 ## My Journey
 
-Started with the fundamentals — networking, Linux, and web security — and gradually moved into more complex areas like Active Directory attacks, Android dynamic analysis, and real-world vulnerability research. Along the way I picked up hands-on experience through internships, bug bounty programs, and countless hours on Hack The Box.
+I started with the basics from networking, Linux, and web security then moved into more advanced areas like Active Directory attacks, Android dynamic analysis, and real-world vulnerability research. Along the way, internships, bug bounty programs, and countless hours grinding boxes on Hack The Box gave me the hands-on experience to back it up.
+
 
 ---
 
