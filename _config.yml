@@ -241,7 +241,7 @@ timezone:
 
 title: mrci0x1 # the main title
 
-tagline: Exploiting with precision, burning with purpose. # it will display as the subtitle
+tagline: No pain, no gain. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
