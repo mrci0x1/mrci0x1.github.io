@@ -1,8 +1,10 @@
 favicon:
-  ico: /assets/img/favicons/favicon.ico
-  svg: /assets/img/favicons/favicon.svg
+  ico: /assets/img/favicon/favicon.ico
+  svg: /assets/img/favicon/favicon.svg
   png:
-    - /assets/img/favicons/favicon-16x16.png
-    - /assets/img/favicons/favicon-32x32.png
+    - /assets/img/favicon/favicon-96x96.png
   apple:
-    - /assets/img/favicons/apple-touch-icon.png
+    - /assets/img/favicon/apple-touch-icon.png
+  android:
+    - /assets/img/favicon/web-app-manifest-192x192.png
+    - /assets/img/favicon/web-app-manifest-512x512.png
