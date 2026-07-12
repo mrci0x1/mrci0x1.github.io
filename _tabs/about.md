@@ -1,26 +1,24 @@
 ---
-# the default layout is 'page'
 icon: fas fa-info-circle
-order: 4
-title: "About Me"
+order: 6
+title: "About"
 ---
 
-### About
+mrci0x1
 
-I'm **Mohamed Mahmoud** aka mrci0x1, an offensive security professional focused on web, API, network, Active Directory, and Android mobile penetration testing. I like taking systems apart, figuring out how they actually work, and digging until I find what others miss.
+Offensive security professional focused on web, API, network, Active Directory, and Android mobile penetration testing. I like taking systems apart, figuring out how they actually work, and digging until I find what others miss.
 
-### My Journey
+## Certifications
 
-I started with the basics from networking, Linux, and web security then moved into more advanced areas like Active Directory attacks, Android dynamic analysis, and real-world vulnerability research. Along the way, internships, bug bounty programs, and countless hours grinding boxes on Hack The Box gave me the hands-on experience to back it up.
+- **eWPTXv3** (2025) — eLearnSecurity Web Penetration Tester eXtreme (INE)
 
+## Elsewhere
 
----
-
-### Connect with Me
-
-Always open to talking security, collaborating on research, or just exchanging ideas.
-
-- [![Hack The Box](https://www.hackthebox.com/badge/image/748090)](https://app.hackthebox.com/users/748090)
-- [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamed1mahmoud/)
-- [![Medium](https://img.shields.io/badge/-Medium-000000?style=flat&logo=medium&logoColor=white)](https://medium.com/@mrcix)
-- [![HackerOne](https://img.shields.io/badge/-HackerOne-0A0A0A?style=flat&logo=hackerone&logoColor=white)](https://hackerone.com/mrci0x1) 
+| | Link |
+|---|---|
+| <i class="fab fa-github"></i> **GitHub** | [github.com/mrci0x1](https://github.com/mrci0x1) |
+| <i class="fa-brands fa-x-twitter"></i> **X** | [x.com/mrci0x1](https://x.com/mrci0x1) |
+| <i class="fas fa-cube"></i> **Hack The Box** | [app.hackthebox.com/users/748090](https://app.hackthebox.com/users/748090) |
+| <i class="fab fa-linkedin"></i> **LinkedIn** | [linkedin.com/in/mohamed1mahmoud](https://www.linkedin.com/in/mohamed1mahmoud/) |
+| <i class="fab fa-medium"></i> **Medium** | [medium.com/@mrcix](https://medium.com/@mrcix) |
+| <i class="fab fa-hackerrank"></i> **HackerOne** | [hackerone.com/mrci0x1](https://hackerone.com/mrci0x1) |

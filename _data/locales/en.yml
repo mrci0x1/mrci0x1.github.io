@@ -1,0 +1,10 @@
+# The tabs of sidebar
+tabs:
+  # format: <filename_without_extension>: <value>
+  home: Home
+  categories: Categories
+  certifications: Certifications
+  archives: Archives
+  tools: Tools
+  tags: Tags
+  about: About
