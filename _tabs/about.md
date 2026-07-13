@@ -4,13 +4,7 @@ order: 6
 title: "About"
 ---
 
-mrci0x1
-
 Offensive security professional focused on web, API, network, Active Directory, and Android mobile penetration testing. I like taking systems apart, figuring out how they actually work, and digging until I find what others miss.
-
-## Certifications
-
-- **eWPTXv3** (2025) — eLearnSecurity Web Penetration Tester eXtreme (INE)
 
 ## Elsewhere
 
