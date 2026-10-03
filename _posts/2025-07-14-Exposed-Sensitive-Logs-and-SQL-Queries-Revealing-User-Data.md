@@ -4,7 +4,7 @@ date: 2025-07-14
 categories: [Bug Hunting]
 tags: [Bug, Information_Disclosure]
 image:
-  path: /assets/Exposed.png
+  path: /assets/Screenshot 2025-05-22-014407.png
   lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
   alt: "Exposed Sensitive Logs and SQL Queries Revealing User Data — blog writeup cover"
 ---
@@ -26,4 +26,4 @@ This leak could’ve let hackers steal data or cause big trouble, so I quickly r
 ![Internal flow](https://mrci0x1.gitbook.io/home/~gitbook/image?url=https%3A%2F%2F2226553737-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FGuulzzy1AvWrJMh0trBB%252Fuploads%252F8UnjUEZ4H4LAYhAlpqTo%252FScreenshot_2025-01-11_115300.png%3Falt%3Dmedia%26token%3Dd2bbe728-32ca-42af-b688-5f5d2aa2234f&width=768&dpr=4&quality=100&sign=7ae29a1f&sv=2)
 
 ## Resolved
-![result](https://mrci0x1.gitbook.io/home/~gitbook/image?url=https%3A%2F%2F2226553737-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FGuulzzy1AvWrJMh0trBB%252Fuploads%252F7Pfd1yxsimHBCHUYDdXX%252FScreenshot%25202025-05-22%2520014407.png%3Falt%3Dmedia%26token%3Dcc17eb8d-172b-4c98-bb97-30103c2fccbb&width=768&dpr=1&quality=100&sign=4c5ed1d8&sv=2)
+![result](/assets/Screenshot 2025-05-22-014407.png)
